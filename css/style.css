@@ -11,3 +11,7 @@ body {
   max-width: 500px;
   height: auto;
 }
+h1 {
+  font-size: 18px;
+  font-family: arial;
+}
