@@ -1,17 +1,51 @@
 /*potcomm github stylesheet */
 @charset "utf-8";
+/* --- Mobile-First CSS Media Queries gemini ai jul 2026   --- */
+
+/* --- Base Styles (Mobile First) --- */
 body {
-  margin: 10px;
-  background-color: #FFFFFF;
-  font-size: 18px;
-  font-family: arial;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 15px;
+  background-color: #ffffff;
+  font-family: arial, helvetica, sans-serif;
 }
-.responsive {
+
+#container {
   width: 100%;
-  max-width: 500px;
+}
+
+/* --- Tablet Styles (Screens 768px and wider) --- */
+@media (min-width: 768px) {
+  body {
+    padding: 30px;
+  }
+  #container {
+    width: 95%;        /* Takes up 95% of the screen on smaller tablets */
+    max-width: 750px;  /* Stops growing once it hits 750px */
+    margin: 0 auto;
+  }
+}
+
+/* --- Desktop Styles (Screens 1024px and wider) --- */
+@media (min-width: 1024px) {
+  #container {
+    width: 95%;        /* Stays flexible on smaller laptops */
+    max-width: 960px;  /* Stops growing once it hits 960px */
+  }
+}
+
+
+img {
+  max-width: 100%;
   height: auto;
+  display: block;
 }
 h1 {
-  font-size: 18px;
+  font-size: 22px;
+  font-family: arial;
+}
+h2 {
+  font-size: 20px;
   font-family: arial;
 }
