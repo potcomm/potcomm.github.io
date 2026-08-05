@@ -1,4 +1,4 @@
-/* mf3.co.uk-new */
+/* as mf3.co.uk-new cut-down*/
 @charset "utf-8";
 /* --- Mobile-First CSS Media Queries --- */
 
@@ -50,7 +50,7 @@ img {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-#website-title {
+<!--    #website-title {
   width: 320px; 
   margin-top: 10px;
 }
@@ -61,7 +61,7 @@ img {
 #website-title h2 {
   font-size: 15px;
   color: black;
-}
+}   -->
 #menu {
   width:  100%;
   margin-top: 10px;
