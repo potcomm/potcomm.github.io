@@ -11,26 +11,26 @@ body {
   font-family: arial, helvetica, sans-serif;
 }
 h1 {
-  font-size: 26px;
+  font-size: 28px;
   font-family: arial;
 }
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-family: arial;
 }
 p {
-  font-size: 24px;
+  font-size: 26px;
    line-height: 1.6;
    color: black;
 }
 p a {
-  font-size: 24px;
+  font-size: 26px;
    line-height: 1.6;
    color: black;
    text-decoration: underline;
 }
 p a:hover {
-  font-size: 24px;
+  font-size: 26px;
    line-height: 1.6;
   color: #ff6a00;
 }
