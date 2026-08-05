@@ -18,13 +18,18 @@ h2 {
   font-size: 24px;
   font-family: arial;
 }
-a {
+p {
   font-size: 20px;
    line-height: 1.6;
-  color: black;
-  text-decoration: underline;
+   color: black;
 }
-a:hover {
+p a {
+  font-size: 20px;
+   line-height: 1.6;
+   color: black;
+   text-decoration: underline;
+}
+p a:hover {
   font-size: 20px;
    line-height: 1.6;
   color: #ff6a00;
@@ -50,16 +55,7 @@ h2 {
   font-size: 22px;
   font-family: arial;
 }
-a {
-  font-size: 20px;
-   line-height: 1.6;
-  color: black;
-  text-decoration: underline;
-}
-a:hover {
-  font-size: 20px;
-   line-height: 1.6;
-  color: #ff6a00;
+
   #container {
     width: 95%;        /* Takes up 95% of the screen on smaller tablets */
     max-width: 750px;  /* Stops growing once it hits 750px */
