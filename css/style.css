@@ -1,38 +1,14 @@
-/*potcomm github stylesheet */
+/* potcomm.github-new */
 @charset "utf-8";
-/* --- Mobile-First CSS Media Queries gemini ai jul 2026   --- */
+/* --- Mobile-First CSS Media Queries --- */
 
 /* --- Base Styles (Mobile First) --- */
 body {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
   padding: 15px;
   background-color: #ffffff;
   font-family: arial, helvetica, sans-serif;
-}
-#container h1 {
-  font-size: 28px;
-  font-family: arial;
-}
-#container h2 {
-  font-size: 26px;
-  font-family: arial;
-}
-#container p {
-  font-size: 26px;
-   line-height: 1.6;
-   color: black;
-}
-#container p a {
-  font-size: 26px;
-   line-height: 1.6;
-   color: black;
-   text-decoration: underline;
-}
-#container p a:hover {
-  font-size: 26px;
-   line-height: 1.6;
-  color: #ff6a00;
 }
 
 #container {
@@ -42,13 +18,8 @@ body {
 /* --- Tablet Styles (Screens 768px and wider) --- */
 @media (min-width: 768px) {
   body {
-    font-size: 20px;
-    line-height: 1.6;
     padding: 30px;
-    background-color: #ffffff;
-   font-family: arial, helvetica, sans-serif;
   }
-
   #container {
     width: 95%;        /* Takes up 95% of the screen on smaller tablets */
     max-width: 750px;  /* Stops growing once it hits 750px */
@@ -72,3 +43,401 @@ img {
 }
 
 
+#logo {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#website-title {
+  width: 320px; 
+  margin-top: 10px;
+}
+#website-title h1 {
+  font-size: 20px;
+  color: black;
+}
+#website-title h2 {
+  font-size: 15px;
+  color: black;
+}
+#menu {
+  width:  100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: white;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 23px;
+  line-height: 36px;
+  text-align: center;
+}
+#menu a {
+  color: black;
+  text-decoration: none;
+}  
+#menu a:hover {
+  color: black;
+  text-decoration: underline;
+}
+#divider {
+  width: 100%;
+  height: 20px;
+  margin-top: -30px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-bottom: 3px solid #224823;
+}
+#content {
+}
+#content h1 {
+  font-size: 24px;
+  line-height: 34px;
+  color: black;
+}
+#content h2 {
+  font-size: 22px;
+  line-height: 32px;
+  color: black;
+}
+#content h2 a {
+  font-size: 22px;
+  line-height: 32px;
+  color: black;
+  text-decoration: none;
+}
+#content h2 a:hover {
+  font-size: 22px;
+  line-height: 32px;
+  color: red;
+  text-decoration: none;
+}
+#content h3 {
+  font-size: 21px;
+  line-height: 31px;
+  color: black;
+}
+#content h3 a {
+  font-size: 21px;
+  line-height: 31px;
+  color: black;
+  text-decoration: none;
+}
+#content h3 a:hover {
+  font-size: 21px;
+  line-height: 31px;
+  color: red;
+  text-decoration: none;
+}
+#content p {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+#content p a {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  text-decoration: underline;
+}
+#content p a:hover {
+  font-size: 20px;
+  line-height: 30px;
+  color: red;
+  text-decoration: none;
+}
+ol li {
+  font-size: 20px;
+  line-height: 30px;
+}
+ol li a {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  text-decoration: underline;
+}
+ol li a:hover {
+  font-size: 20px;
+  line-height: 30px;
+  color: red;
+  text-decoration: none;
+}
+ul li {
+  font-size: 20px;
+  line-height: 30px;
+}
+ul li a {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  text-decoration: underline;
+}
+ul li a:hover {
+  font-size: 20px;
+  line-height: 30px;
+  color: red;
+  text-decoration: none;
+}
+/* --- indents no longer required hence 0px  --- */
+#indent {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.indent {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#cookie {
+  width: 300px;
+  height: 250px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#center-image {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#single-image {
+  width: 320px;
+}
+.single-image {
+  width: 320px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: top; /* here */
+}
+#single-image2 {
+   width: 320px;
+}
+.single-image2 {
+  width: 160px;
+  margin-right: 10px;
+  margin-bottom: 10px;  
+  display: inline-block;
+  vertical-align: top; /* here */
+}
+#website-photos {
+  vertical-align: top; /* here */
+  text-align:center; 
+  color: black;
+  font-size: 22px;
+}
+#website-photos  a {
+   color: black;
+   font-size: 22px;
+   text-decoration: none;
+}
+#website-photos a:hover {
+   color: black;
+   font-size: 22px;
+   text-decoration: underline;
+}
+.photos {
+  width: 300px;
+  height: 300px;
+  color: black;
+  margin-left: 15px;
+  margin-right: 15px; 
+  margin-top: 18px;
+  margin-bottom: 60px;
+  display: inline-block;
+  vertical-align: top; /* here */
+}
+
+#navigation-bottom {
+  width:  100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 23px;
+  line-height: 38px;
+  text-align: center;
+}
+#navigation-bottom a {
+  color: black;
+  text-decoration: none;
+}  
+#navigation-bottom a:hover {
+  color: black;
+  text-decoration: underline;
+}
+#footer {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: black;  
+  font-size: 16px;
+}
+#divider1 {
+  width: 100%;
+  height: 20px;
+  margin-top: -38px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-bottom: 3px solid black;
+}
+#error {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#border-box {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Jump menu text size */
+select {
+  font-size: 20px; /* Adjust the pixel size as needed */
+}
+#resources {
+  width: 100%;
+  margin-top: -45px;
+  text-align:center;
+  vertical-align: top; /* here */
+}
+#resources h2 {
+  font-size: 24px;
+  line-height: 26px;
+  color: black;
+}
+.column {
+  width: 320px;
+  color: black;
+  font-size: 20px;
+  text-align:left;
+  margin-right: 15px;
+  margin-bottom: 0px;
+  display: inline-block;
+  vertical-align: top; /* here */
+}
+.column p {
+  font-size: 22px;
+  line-height: 28px;
+  color: black;
+}
+.column p a {
+  font-size: 22px;
+  line-height: 28px;
+  color: black;
+  text-decoration: none;
+}
+.column p a:hover {
+  font-size: 22px;
+  line-height: 28px;
+  color: black;
+  text-decoration: underline;
+}
+.project-names {
+  margin-top: 25px;
+  text-align:center;
+  vertical-align: top; /* here */
+}
+.project-names h2 {
+  font-size: 24px;
+  line-height: 26px;
+  color: black;
+}
+.column-narrow {
+  width: 170px;
+  color: black;
+  font-size: 20px;
+  text-align:left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  display: inline-block;
+  vertical-align: top; /* here */
+}
+.column-narrow p {
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+}
+.column-narrow p a {
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+  text-decoration: none;
+}
+.column-narrow p a:hover {
+  font-size: 22px;
+  line-height: 24px;
+  color: black;
+  text-decoration: underline;
+}
+
+#recomended {
+  margin-top: -45px;
+  text-align:center;
+  vertical-align: top; /* here */
+}
+#recomended h2 {
+  font-size: 32px;
+  line-height: 36px;
+  color: black;
+}
+.rp1 {
+  width: 320px;
+  display: inline-block;
+  vertical-align: middle; /* here */
+}
+
+.attachments {
+  margin-top: 5px;
+  text-align:center;
+  vertical-align: top; /* here */
+}
+.paypal {
+  height: 230px;
+}
+.image1 {
+  width: 85%;
+}
+.image1-center {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image2 {
+  width: 100%;
+}
+.image2-center {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.videos {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-container iframe {
+  width: 96%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
