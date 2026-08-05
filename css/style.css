@@ -4,12 +4,30 @@
 
 /* --- Base Styles (Mobile First) --- */
 body {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
   padding: 15px;
   background-color: #ffffff;
   font-family: arial, helvetica, sans-serif;
 }
+h1 {
+  font-size: 26px;
+  font-family: arial;
+}
+h2 {
+  font-size: 24px;
+  font-family: arial;
+}
+a {
+  font-size: 20px;
+   line-height: 1.6;
+  color: black;
+  text-decoration: underline;
+}
+a:hover {
+  font-size: 20px;
+   line-height: 1.6;
+  color: #ff6a00;
 
 #container {
   width: 100%;
@@ -18,8 +36,30 @@ body {
 /* --- Tablet Styles (Screens 768px and wider) --- */
 @media (min-width: 768px) {
   body {
+    font-size: 20px;
+    line-height: 1.6;
     padding: 30px;
+    background-color: #ffffff;
+   font-family: arial, helvetica, sans-serif;
   }
+h1 {
+  font-size: 24px;
+  font-family: arial;
+}
+h2 {
+  font-size: 22px;
+  font-family: arial;
+}
+a {
+  font-size: 20px;
+   line-height: 1.6;
+  color: black;
+  text-decoration: underline;
+}
+a:hover {
+  font-size: 20px;
+   line-height: 1.6;
+  color: #ff6a00;
   #container {
     width: 95%;        /* Takes up 95% of the screen on smaller tablets */
     max-width: 750px;  /* Stops growing once it hits 750px */
@@ -41,29 +81,5 @@ img {
   height: auto;
   display: block;
 }
-h1 {
-  font-size: 22px;
-  font-family: arial;
-}
-h2 {
-  font-size: 20px;
-  font-family: arial;
-}
 
-p {
-  font-size: 20px;
-  line-height: 30px;
-  color: black;
-}
-p a {
-  font-size: 20px;
-  line-height: 30px;
-  color: black;
-  text-decoration: underline;
-}
-p a:hover {
-  font-size: 20px;
-  line-height: 30px;
-  color: #ff6a00;
-  text-decoration: none;
-}
+
