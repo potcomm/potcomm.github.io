@@ -49,3 +49,21 @@ h2 {
   font-size: 20px;
   font-family: arial;
 }
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+}
+p a {
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  text-decoration: underline;
+}
+p a:hover {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff6a00;
+  text-decoration: none;
+}
